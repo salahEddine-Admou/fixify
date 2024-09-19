@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { setCredentials } from '../store/auth/authSlice';
 
 let store;
 
@@ -20,7 +19,7 @@ export const apiErrorResponse = (error) => {
 };
 
 const AxiosClient = axios.create({
-	baseURL: 'http://127.0.0.1:8080',
+	baseURL: 'http://127.0.0.1:8082',
 	withCredentials: true
 });
 

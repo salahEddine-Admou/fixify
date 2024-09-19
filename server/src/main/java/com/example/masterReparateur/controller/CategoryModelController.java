@@ -3,8 +3,6 @@ package com.example.masterReparateur.controller;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.example.masterReparateur.dto.UserCheckerRequest;
-import com.example.masterReparateur.exception.MasterException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,11 +13,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import com.example.masterReparateur.dto.CategoryModelDto;
+import com.example.masterReparateur.exception.MasterException;
 import com.example.masterReparateur.models.CategoryModel;
 import com.example.masterReparateur.service.CategoryModelService;
-
-import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("/api/categorymodel")

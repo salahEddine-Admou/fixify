@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = 'http://localhost:8080/api/livreur'; // Assurez-vous de remplacer l'URL par celle de votre API backend
+const BASE_URL = 'http://localhost:8082/api/livreur'; // Assurez-vous de remplacer l'URL par celle de votre API backend
 
 const getAllLivreur = async () => {
     try {
@@ -50,4 +50,5 @@ const deleteLivreur = async (id) => {
     }
 };
 
-export { getAllLivreur, getLivreurById, createLivreur, updateLivreur, deleteLivreur };
+export { createLivreur, deleteLivreur, getAllLivreur, getLivreurById, updateLivreur };
+
