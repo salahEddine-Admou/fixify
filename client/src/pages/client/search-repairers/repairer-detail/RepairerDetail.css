@@ -1,0 +1,3 @@
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-rate .ant-rate-star:not(:last-child) {
+    margin-inline-end: 1px !important;
+}

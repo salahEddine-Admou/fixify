@@ -1,0 +1,45 @@
+.profile-card {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 3px;
+    width: 70%;
+    border-radius: 17px;
+    height: 4px;
+   
+}
+
+/* home.css */
+.bg-blue-100 {
+    background-color: rgba(79, 70, 229, 0.1); /* Couleur bleu légèrement transparente */
+}
+
+
+
+/* home.css */
+.testimonials-container {
+ 
+    flex-wrap: wrap;
+    
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    color: #333; /* Couleur de texte principale */
+}
+

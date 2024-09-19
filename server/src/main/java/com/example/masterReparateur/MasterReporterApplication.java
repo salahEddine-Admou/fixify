@@ -1,0 +1,15 @@
+package com.example.masterReparateur;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableAsync;
+
+@SpringBootApplication
+@EnableAsync
+public class MasterReporterApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MasterReporterApplication.class, args);
+	}
+
+}

@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* @primary-color: #f44336; */
+body {
+	font-family: "Open Sans", sans-serif !important;
+}
+
+.no-shadow:focus {
+	box-shadow: none !important;
+}
+
+.desc ul {
+	list-style: disc !important;
+}
+
+.ant-btn-primary {
+	background-color: #3b82f6 !important;
+	color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 2px;
+	height: 1px !important;
+}
+
+
+.ant-table-thead .ant-table-cell {
+	background-color: whitesmoke !important;
+}
+
+.title::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 3px;
+	width: 70%;
+	border-radius: 17px;
+	height: 4px;
+	background-color: #3b82f6;
+}
+
+.icon {
+
+	transition: transform 0.3s ease-in-out;
+	/* Smooth transition */
+}
+
+.icon:hover {
+	animation: wiggle 0.5s ease;
+	/* Start animation on hover */
+}
+
+.up-down {
+	animation: up-down linear 4s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	-webkit-animation: up-down linear 4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 50%;
+	-moz-animation: up-down linear 4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 50% 50%;
+	-o-animation: up-down linear 4s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 50% 50%;
+	-ms-animation: up-down linear 4s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 50%;
+}
+
+@keyframes up-down {
+	0% {
+		transform: translate(1px, 20px);
+	}
+
+	24% {
+		transform: translate(1px, 30px);
+	}
+
+	50% {
+		transform: translate(1px, 12px);
+	}
+
+	74% {
+		transform: translate(1px, 22px);
+	}
+
+	100% {
+		transform: translate(1px, 22px);
+	}
+}
+
+a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+ul {
+	margin-bottom: 0 !important;
+}
+
+@-moz-keyframes up-down {
+	0% {
+		-moz-transform: translate(1px, 20px);
+	}
+
+	24% {
+		-moz-transform: translate(1px, 30px);
+	}
+
+	50% {
+		-moz-transform: translate(1px, 12px);
+	}
+
+	74% {
+		-moz-transform: translate(1px, 22px);
+	}
+
+	100% {
+		-moz-transform: translate(1px, 22px);
+	}
+}
+
+@-webkit-keyframes up-down {
+	0% {
+		-webkit-transform: translate(1px, 20px);
+	}
+
+	24% {
+		-webkit-transform: translate(1px, 30px);
+	}
+
+	50% {
+		-webkit-transform: translate(1px, 12px);
+	}
+
+	74% {
+		-webkit-transform: translate(1px, 22px);
+	}
+
+	100% {
+		-webkit-transform: translate(1px, 22px);
+	}
+}
+
+@-o-keyframes up-down {
+	0% {
+		-o-transform: translate(1px, 20px);
+	}
+
+	24% {
+		-o-transform: translate(1px, 30px);
+	}
+
+	50% {
+		-o-transform: translate(1px, 12px);
+	}
+
+	74% {
+		-o-transform: translate(1px, 22px);
+	}
+
+	100% {
+		-o-transform: translate(1px, 22px);
+	}
+}
+
+@-ms-keyframes up-down {
+	0% {
+		-ms-transform: translate(1px, 20px);
+	}
+
+	24% {
+		-ms-transform: translate(1px, 30px);
+	}
+
+	50% {
+		-ms-transform: translate(1px, 12px);
+	}
+
+	74% {
+		-ms-transform: translate(1px, 22px);
+	}
+
+	100% {
+		-ms-transform: translate(1px, 22px);
+	}
+}
+
+@keyframes wiggle {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	25% {
+		transform: rotate(10deg);
+	}
+
+	50% {
+		transform: rotate(-10deg);
+	}
+
+	75% {
+		transform: rotate(10deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #3b83f66b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #2260c4;
+}
+
+/* .ant-btn-primary {
+	background-color: #3b82f6 !important;
+	opacity: 0.8 !important;
+	color: white !important;
+	border: 1px solid #3b82f6 !important;
+} */
