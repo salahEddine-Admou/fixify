@@ -40,6 +40,4 @@ secrets.yml
 .gradletasknamecache
 .sts4-cache
 .git-hooks/
-pom.xml
-src/main/resources/application.properties
-src/main/resources/application copy.properties
+
